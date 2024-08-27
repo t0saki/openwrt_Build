@@ -17,8 +17,8 @@ env:
   TZ: Asia/Shanghai
 
 on:
-  schedule:
-    - cron: 0 9 * * SAT
+  # schedule:
+  #   - cron: 0 9 * * SAT
   workflow_dispatch:
     inputs:
       version:
